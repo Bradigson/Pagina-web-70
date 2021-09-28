@@ -1,0 +1,127 @@
+body{
+    background:url(../imgs/daniel-macura-YpiT8ehY5ME-unsplash.jpg);
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+}
+#particles-js{
+    background: rgba(0,0,0,.5);
+    position:absolute;
+    width:100%;
+    height:100vh;
+}
+.sesion1{
+    position: absolute;
+    z-index: 50;
+    background:#26262696;
+    width:90%;
+    height:80vh;
+    margin-top:50px;
+    border-radius:20px;
+    padding:20px;
+    color:#eee;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+}
+
+nav ul{
+    display:flex;
+}
+nav ul li {
+    margin-right:30px;
+    list-style:none;
+}
+nav ul li > a{
+    color:#eee;
+    font-size: 20px;
+}
+
+.content1{
+    width:40%;
+    margin-top:100px;
+    padding-left:50px;
+}
+#bridge{
+    font-size:50px;
+    font-weight: 7;
+}
+.cont1{
+    display:flex;
+    justify-content: space-between;
+    width:400px;
+    margin-top:50px;
+}
+.img{
+    width:400px;
+    height:270px;
+    border:5px solid #eee;
+}
+.img > img{
+    width:100%;
+    height:100%;
+}
+.video{
+
+    position: absolute;
+    margin-top:-450px;
+    right:00px;
+    width:700px;
+    height:300px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#boton{
+    background:none;
+    position:absolute;
+    background:#ff4500;
+    border:none;
+    outline: none;
+    border-radius:20em;
+    width:80px;
+    height:80px;
+    margin-left:-40px;
+    animation: btn 3s  infinite linear;
+}
+.bx-play{
+    color:#eee;
+    font-size:70px;
+
+}
+
+@keyframes btn{
+    0%{
+        box-shadow: 0 0 0 0 rgba(255, 69, 0,.7);
+    }
+    70%{
+        box-shadow: 0 0 0 20px rgba(255, 69, 0,.0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(255, 69, 0,.0);
+    }
+}
+
+.price{
+    position: absolute;
+    right:230px;
+    margin-top:-100px;
+    width:450px;
+    height:130px;
+    display: flex;
+    flex-direction: column;
+}
+.ri, .caracts{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:15px;
+    align-items: center;
+}
+.bx-right-arrow-alt{
+    font-size:50px;
+}
+#b{
+    font-size:40px;
+}
